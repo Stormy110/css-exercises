@@ -14,12 +14,38 @@ body {
   align-items: center;
   justify-content: center;
 }
+.header {
+  font-size:20px;
+  font-weight:bold;
+  margin:8px;
+}
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+}
+.left {
+  align-items: flex-start;
+  display:flex;
+  margin:8px;
+}
+
+.buttons {
+  display:flex;
+
+}
+.text {
+  margin:8px;
+}
+.middle {
+  display:flex;
+  flex-direction: column;
+}
+.right {
+  display:flex;
 }
 
 .icon {
@@ -46,11 +72,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin:8px;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin:8px 2px;
 }
 
 button.continue {
